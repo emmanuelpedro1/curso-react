@@ -15,7 +15,9 @@ function NavBar() {
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
-        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">a</div>
+        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <h3>Contenido de pagina de inicio</h3>
+        </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
           <section className="position-relative">
             <div className="list-group position-absolute top-0 start-0 row">
@@ -26,7 +28,9 @@ function NavBar() {
             </div>
           </section>
         </div>
-        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">c</div>
+        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <h3>Input para contacto</h3>
+          </div>
       </div>
 
       <footer className="py-5 bg-dark ">
