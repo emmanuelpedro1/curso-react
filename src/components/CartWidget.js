@@ -4,6 +4,8 @@ import React from 'react'
 
 const CartWodget =({SubTitulos, comentario, imagenes}) => {
 const seleccionar = () =>{
+alert (" quiero que se se despliegue el comentario y la imagen ")
+
 }
 
 
